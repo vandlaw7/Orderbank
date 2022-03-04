@@ -1,0 +1,21 @@
+.take_order_btn {
+    height: 48px;
+    width: 100%;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 10rem !important;
+    font-size: 1rem;
+    color: #FFF !important; 
+    text-align: center;
+    background: rgba(246, 147, 26, 1) !important;
+    text-transform: none;
+    border-radius: 10rem;
+  }
+
+
+.take_order_btn:hover {
+    border-radius: 10rem;
+    background: rgba(246, 147, 26, 0.85) !important;
+    /* opacity: 0.95; */
+  }   

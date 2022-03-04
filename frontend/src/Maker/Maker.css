@@ -1,0 +1,102 @@
+@import url("https://use.typekit.net/mds1mqt.css");
+
+.maker_view {
+    background-color: #0A0A0A;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.order_txt {
+    color: white;
+    opacity: 0.7;
+}
+
+.price_txt {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.price_txt_dai {
+  margin-top: 0.35rem;
+  color: white;
+  opacity: 0.7;
+}
+
+.coin_txt {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.amount_txt {
+  margin-top: 0.55rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.proceed_button {
+    height: 48px;
+    width: 100%;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 10rem !important;
+    font-size: 1rem;
+    color: #FFF !important; 
+    text-align: center;
+    background: rgba(246, 147, 26, 1) !important;
+    text-transform: none;
+    border-radius: 10rem;
+  }
+
+
+.proceed_button:hover {
+    border-radius: 10rem;
+    background: rgba(246, 147, 26, 0.6) !important;
+    opacity: 0.6;
+  }
+
+.enable_button {
+  height: 48px;
+  width: 100%;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 10rem !important;
+  font-size: 1rem;
+  color: #000 !important; 
+  text-align: center;
+  background: linear-gradient(
+    101.9deg,
+    rgba(91, 254, 167, 1) 4.32%,
+    rgba(91, 225, 254, 1) 97.79%
+  ) !important;
+  text-transform: none;
+  border-radius: 10rem;
+}
+
+
+.enable_button:hover {
+  border-radius: 10rem;
+  background: linear-gradient(
+    101.9deg,
+    rgbargba(80, 80, 80, 0.6) 4.32%,
+    rgba(91, 225, 254, 0.6) 97.79%
+  ) !important;
+  opacity: 0.6;
+}
+.not_able {
+  height: 48px;
+  width: 100%;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 10rem !important;
+  font-size: 1rem;
+  color: #FFF !important; 
+  text-align: center;
+  background: gray !important;
+  text-transform: none;
+  border-radius: 10rem; 
+}

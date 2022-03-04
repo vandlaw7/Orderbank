@@ -1,0 +1,16 @@
+.table_header_txt {
+    font-family: 'futura-pt', sans-serif;
+    text-transform: none;
+    font-size: 1.188rem;
+    color: #FFF;
+}
+.table_header_txt_none {
+    font-family: 'futura-pt', sans-serif;
+    text-transform: none;
+    font-size: 1.188rem;
+    color: #9D9D9D;
+}
+.table_font {
+    color: #FFF !important;
+    font-size: 0.813rem;
+}

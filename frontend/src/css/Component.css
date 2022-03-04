@@ -1,0 +1,36 @@
+.MuiTableCell-root {
+    color: #FFFFFF;
+}
+
+.MuiTableCell-root .MuiTableCell-body {
+    border-bottom: none;
+}
+
+.MuiTableCell-head {
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.MuiTableCell-head span {
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.mg-r-15 {
+    margin-right: 15px;
+}
+
+
+.inavailable {
+    padding: 0 10px 0 0;
+}
+
+.coin {
+    padding-left: 5px;
+}

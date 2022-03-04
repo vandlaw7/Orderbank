@@ -1,0 +1,80 @@
+{
+	"name": "pendingswap",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@babel/eslint-parser": "^7.16.5",
+		"@emotion/react": "^11.7.1",
+		"@emotion/styled": "^11.6.0",
+		"@ethersproject/providers": "^5.5.1",
+		"@manaflair/redux-batch": "^1.0.0",
+		"@material-ui/core": "^4.12.3",
+		"@material-ui/lab": "^4.0.0-alpha.60",
+		"@mui/icons-material": "^5.2.5",
+		"@mui/material": "^5.2.7",
+		"@mui/x-data-grid": "^5.2.2",
+		"@reduxjs/toolkit": "^1.7.1",
+		"@testing-library/jest-dom": "^5.15.1",
+		"@testing-library/react": "^11.2.7",
+		"@testing-library/user-event": "^12.8.3",
+		"@web3-react/core": "^6.1.9",
+		"@web3-react/injected-connector": "^6.0.7",
+		"ag-grid-community": "^26.2.0",
+		"ag-grid-react": "^26.2.0",
+		"antd": "^4.18.3",
+		"axios": "^0.24.0",
+		"bignumber.js": "^9.0.2",
+		"chart.js": "^3.7.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-import-resolver-alias": "^1.1.2",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-react": "^7.28.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"ethers": "^5.5.2",
+		"prettier-eslint-cli": "^5.0.1",
+		"react": "^17.0.2",
+		"react-chartjs-2": "^4.0.1",
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.6",
+		"react-router": "^6.1.0",
+		"react-router-dom": "^6.2.1",
+		"react-scripts": "4.0.3",
+		"recharts": "^2.1.6",
+		"redux-localstorage-simple": "^2.4.1",
+		"short-uuid": "^4.2.0",
+		"styled-components": "^5.3.3",
+		"web-vitals": "^1.1.2",
+		"web3": "^1.7.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"prepare": "husky install",
+		"format": "eslint . --ext .jsx,.js --quiet --fix"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"husky": "^7.0.0"
+	}
+}

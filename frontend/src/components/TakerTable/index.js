@@ -1,0 +1,1 @@
+export { TakerTable } from './TakerTable'

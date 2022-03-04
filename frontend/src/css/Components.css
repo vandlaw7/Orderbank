@@ -1,0 +1,134 @@
+@import url("https://use.typekit.net/mds1mqt.css");
+
+.button-connected {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.txlist {
+    display: inline-block;
+    margin-right: 10px;
+    width: 240px;
+    z-index: 1;
+}
+
+.desc-txt {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+}
+
+.content-idx {
+  border-left: 8px solid; 
+  height: 48px;
+  border-radius: 4px;
+}
+.completed {
+  border-color: #6DD400;
+}
+.waiting {
+  border-color: #F03737;
+}
+
+.provider {
+  margin-right: 10px;
+  width: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 7px 10px 7px 5px;
+  margin-right: 10px;
+  background: #3F3B37;
+  
+  color: #fff;
+  border: none;
+  font-weight: 400;
+}
+
+.icon-chainlogo {
+  width: 26px;
+  margin-right: 6px; 
+}
+
+.wallet-info {
+  margin-right: 10px;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 4px 16px;
+  margin: 0px;
+  background: #141822;
+  
+  color: #fff;
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+.icon-wallet {
+  width: 32px;
+  margin-right: 6px; 
+}
+
+.balance {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.wallet-address {
+  background-color: #354052;
+  font-size: 0.938rem;
+  border-radius: 8px;
+  padding: 4.5px 10px;
+}
+
+.button-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'futura-pt', sans-serif;
+  color: #F6931A;
+  border: 0.8px solid #F6931A;;
+  padding: 14px 18px;
+  width: 160px;
+}
+.balance_box {
+  background: #363D4E;
+  border: 0.4px solid #F6931A;
+  border-radius: 0.875rem;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  min-height: 5.188rem !important;
+}
+.balance_txt_wrapper {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+.balance_area {
+  margin-top: 1rem !important;
+}
+.network_area {
+  margin-top: 1rem !important;
+}
+.wallet_area {
+  margin-top: 1rem !important;
+}
+.balance_token_txt {
+  font-weight: bold !important;
+}
+.account_btn_area{
+  margin-left: 3.125rem !important;
+  margin-right: 3.125rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}

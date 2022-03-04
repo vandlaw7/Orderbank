@@ -1,0 +1,180 @@
+{
+    "contractName": "PoolViewer",
+    "address": "0x67a4412f1A3C64e32C85f81A8E19648d8e35e690",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "factoryAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "offset",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "limit",
+            "type": "uint256"
+          }
+        ],
+        "name": "poolInfos",
+        "outputs": [
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "pool",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "token0",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "token1",
+                "type": "address"
+              },
+              {
+                "internalType": "uint112",
+                "name": "token0Reserve",
+                "type": "uint112"
+              },
+              {
+                "internalType": "uint112",
+                "name": "token1Reserve",
+                "type": "uint112"
+              },
+              {
+                "internalType": "string",
+                "name": "token0Name",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "token1Name",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "token0Symbol",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "token1Symbol",
+                "type": "string"
+              },
+              {
+                "internalType": "uint8",
+                "name": "token0Decimals",
+                "type": "uint8"
+              },
+              {
+                "internalType": "uint8",
+                "name": "token1Decimals",
+                "type": "uint8"
+              }
+            ],
+            "internalType": "struct PoolViewer.PoolInfo[]",
+            "name": "poolInfoList",
+            "type": "tuple[]"
+          },
+          {
+            "internalType": "uint256",
+            "name": "count",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "total",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address[]",
+            "name": "pools",
+            "type": "address[]"
+          }
+        ],
+        "name": "poolInfosByList",
+        "outputs": [
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "pool",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "token0",
+                "type": "address"
+              },
+              {
+                "internalType": "address",
+                "name": "token1",
+                "type": "address"
+              },
+              {
+                "internalType": "uint112",
+                "name": "token0Reserve",
+                "type": "uint112"
+              },
+              {
+                "internalType": "uint112",
+                "name": "token1Reserve",
+                "type": "uint112"
+              },
+              {
+                "internalType": "string",
+                "name": "token0Name",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "token1Name",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "token0Symbol",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "token1Symbol",
+                "type": "string"
+              },
+              {
+                "internalType": "uint8",
+                "name": "token0Decimals",
+                "type": "uint8"
+              },
+              {
+                "internalType": "uint8",
+                "name": "token1Decimals",
+                "type": "uint8"
+              }
+            ],
+            "internalType": "struct PoolViewer.PoolInfo[]",
+            "name": "poolInfoList",
+            "type": "tuple[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+      }
+    ]
+  }
