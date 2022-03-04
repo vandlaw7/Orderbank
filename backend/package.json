@@ -1,0 +1,25 @@
+{
+  "name": "load_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "findPath": "npx functions-framework --target=findPath ",
+    "pendingOrders": "npx functions-framework --target=pendingOrders ",
+    "pendingOrdersV2": "npx functions-framework --target=pendingOrdersV2 "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.2",
+    "cors": "^2.8.5",
+    "env-yaml": "^0.1.2",
+    "ethers": "^5.5.2",
+    "firebase": "^9.6.4",
+    "firebase-admin": "^10.0.2"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^2.1.0"
+  }
+}
